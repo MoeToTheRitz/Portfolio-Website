@@ -9,7 +9,7 @@
   <title>Moritz Weber - Portfolio</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-  <script src="style.js"></script>
+  <script src="style.js"></script>  
 </head>
 
 
@@ -40,13 +40,15 @@
             </div>
             <div class="btn">
               <button class="btn btn-secondary" type="button" id="changeLanguage" onclick="ChangeLang()">
-                🇩🇪
+                <script>
+                  document.write(Lang);
+                </script>
               </button>
             </div>
         </div>
     </nav>
   </header>
-  <div class="jumbotron jumbotron-fluid" style="background-color: #265269;">
+  <div class="jumbotron jumbotron-fluid" style="background-color: #265269;" id="jumbotron">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
@@ -63,16 +65,16 @@
 
   <div class="container">
     <section id="about">
-      <h2>Sehr geehrte Damen und Herren:</h2>
-      <p>Herzlich willkommen auf meiner Portfolio-Seite welche dazu dient mich ihnen näher vorzustellen! Ich freue mich, dass Sie hierher gefunden haben.
+      <h2 id="index1">Sehr geehrte Damen und Herren:</h2>
+      <p id="index2">Herzlich willkommen auf meiner Portfolio-Seite welche dazu dient mich ihnen näher vorzustellen! Ich freue mich, dass Sie hierher gefunden haben.
          Mein Name ist <strong> Moritz Weber</strong>, und ich bin Student im Bereich <strong> E-Commerce </strong> an der <strong> Technischen Hochschule Würzburg Schweinfurt.</strong></p>
 
-      <p>Als Student im <strong>4. Semester</strong> konnte ich wertvolle Erfahrungen im Bereich E-Commerce sammeln und habe neben meinem Studium bereits mehreren 
+      <p id="index3">Als Student im <strong>4. Semester</strong> konnte ich wertvolle Erfahrungen im Bereich E-Commerce sammeln und habe neben meinem Studium bereits mehreren 
         Unternehmen erfolgreich dabei unterstützt, ihre <strong>Webshops und Seiten zu optimieren</strong> und ihren Umsatz zu steigern. Mein fundiertes Wissen im Online-Marketing, 
         der Erstellung ansprechender Webshops sowie der Optimierung von E-Commerce-Prozessen macht mich zum praktikanten für ihr
         Unternehmen, welches erfolgreich im E-Commerce-Bereich agieren möchten.</p>
 
-        <p>Auf meiner Portfolio-Seite finden Sie einen Überblick über meine <strong>bisherigen Projekte</strong> und Referenzen. 
+        <p id="index4">Auf meiner Portfolio-Seite finden Sie einen Überblick über meine <strong>bisherigen Projekte</strong> und Referenzen. 
           Wenn Sie mehr über meine Arbeit erfahren möchten oder Fragen haben, zögern Sie nicht, mich zu <strong>kontaktieren.</strong> 
           Ich freue mich darauf, von Ihnen zu hören und gemeinsam an Ihrem Erfolg im E-Commerce-Bereich zu arbeiten.</p>
     </section>

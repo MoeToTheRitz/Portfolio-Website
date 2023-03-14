@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="de">
 
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,48 +8,46 @@
   <title>Moritz Weber - Portfolio</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-  <style>
-    div.card-body:hover{background-color:teal}
-
-  </style>
+  <script src="style.js"></script>  
 </head>
 
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-              <img src="img/logo.png" alt="logo" style="max-height: 120px;">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html"><strong>Über mich</strong><span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="lebenslauf.html"><strong>Lebenslauf</strong></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="kontakt.html"><strong>Kontakt</strong></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                Language
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container">
+              <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" alt="logo" style="max-height: 120px;" id="img1">
+                <script>  rotateImageClockwise('img1');</script>
+  
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
               </button>
-              <ul class="dropdown-menu" aria-labelledby="languageDropdown">
-                <li><a class="dropdown-item" href="#" onclick="changeLanguage('en')">English</a></li>
-                <li><a class="dropdown-item" href="#" onclick="changeLanguage('de')">Deutsch</a></li>
-              </ul>
-            </div>
-        </div>
-    </nav>
-  </header>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav" style="margin-right: 5%;">
+                  <ul class="navbar-nav">
+                      <li class="nav-item">
+                          <a class="nav-link" href="about.html"><strong>Über mich</strong><span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="lebenslauf.html"><strong>Lebenslauf</strong></a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="kontakt.html"><strong>Kontakt</strong></a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="btn">
+                <button class="btn btn-secondary" type="button" id="changeLanguage" onclick="ChangeLang()">
+                  <script>
+                    document.write(Lang);
+                  </script>
+                </button>
+              </div>
+          </div>
+      </nav>
+    </header>
 
   <div class="jumbotron jumbotron-fluid" style="background-color: #265269;">
     <div class="container">
