@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
 }
 
 
-else if (window.location.href === "file:///C:/Users/Mamuschka/Desktop/Portfolio%20Website/lebenslauf.html"){
+    else if (window.location.href === "file:///C:/Users/Mamuschka/Desktop/Portfolio%20Website/lebenslauf.html"){
   console.log("passt")
 
   if (Lang === "DE") {
@@ -52,7 +52,7 @@ else if (window.location.href === "file:///C:/Users/Mamuschka/Desktop/Portfolio%
 }
 
 
-else if (window.location.href === "file:///C:/Users/Mamuschka/Desktop/Portfolio%20Website/kontakt.html"){
+    else if (window.location.href === "file:///C:/Users/Mamuschka/Desktop/Portfolio%20Website/kontakt.html"){
   console.log("passt")
 
   if (Lang === "DE") {
