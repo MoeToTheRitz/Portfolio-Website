@@ -8,7 +8,6 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Moritz Weber - Portfolio</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
   <script src="style.js"></script>  
 </head>
 
@@ -50,25 +49,25 @@
       </nav>
     </header>
       <div class="container">
-        <h1>Kontaktformular</h1>
+        <h1 id="contact1">Kontaktformular</h1>
         <form action="https://form.taxi/s/j6175yfm" id="ft-form" method="POST" accept-charset="UTF-8">
             <div class="row g-3">
               <div class="col-md-6">
-                <label for="name" class="form-label">Name</label>
+                <label for="name" class="form-label" id="contact2">Name</label>
                 <input type="text" name="Name" class="form-control" id="name" required>
               </div>
               <div class="col-md-6">
-                <label for="email" class="form-label">E-Mail-Adresse</label>
+                <label for="email" class="form-label" id="contact3">E-Mail-Adresse</label>
                 <input type="email" name="E-Mail" class="form-control" id="email" required>
               </div>
               <div class="col-12">
-                <label for="message" class="form-label">Ihre Nachricht</label>
+                <label for="message" class="form-label" id="contact4">Ihre Nachricht</label>
                 <textarea rows="3" name="Nachricht" class="form-control" id="message" required></textarea>
               </div>
               <div class="col-12">
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" name="Datenverarbeitung bestätigt" value="Ja" id="data-processing" required>
-                  <label class="form-check-label" for="data-processing">
+                  <label class="form-check-label" for="data-processing" id="contact5">
                     Ich bestätige, dass ich mit der Verarbeitung meiner Eingaben zum Zwecke der Anfragebearbeitung, einverstanden bin.
                   </label>
                 </div>
