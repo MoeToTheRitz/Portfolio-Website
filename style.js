@@ -3,7 +3,7 @@ let Lang = sessionStorage.getItem("Lang") || "DE";
 document.addEventListener("DOMContentLoaded", function() {
 
   
-    if (window.location.href === "file:///C:/Users/Mamuschka/Desktop/Portfolio%20Website/index.html"){
+    if (window.location.href.indexOf("/index.html")>= 0){
 
   if (Lang === "DE") {
     document.getElementById("index1").innerHTML = "Sehr geehrte Damen und Herren:"
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
 }
 
 
-    else if (window.location.href === "file:///C:/Users/Mamuschka/Desktop/Portfolio%20Website/about.html"){
+    else if (window.location.href.indexOf("/about.html")>= 0){
 
       if (Lang === "DE") {
         document.getElementById("about1").innerHTML ="Hallo"
@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
 }
 
 
-    else if (window.location.href === "file:///C:/Users/Mamuschka/Desktop/Portfolio%20Website/lebenslauf.html"){
+    else if (window.location.href.indexOf("lebenslauf.html")>= 0){
   console.log("passt")
 
   if (Lang === "DE") {
@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function() {
 }
 
 
-    else if (window.location.href === "file:///C:/Users/Mamuschka/Desktop/Portfolio%20Website/kontakt.html"){
+    else if (window.location.href.indexOf("kontakt.html")>= 0){
   console.log("passt")
 
   if (Lang === "DE") {
