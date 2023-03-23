@@ -1,3 +1,27 @@
-div.card-body:hover {
+/*div.card-body:hover {
     background-color:lightskyblue;
   }
+  .card {
+    position: relative;
+    perspective: 1000px;
+  }
+  
+  .card-body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  
+  .card:hover .card-body {
+    transform: rotateY(180deg);
+  }
+  
+  .card .card-text {
+    transform: rotateY(180deg);
+  }
+  
