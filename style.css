@@ -1,11 +1,16 @@
-/*div.card-body:hover {
+div.card-body:hover {
     background-color:lightskyblue;
   }
   .card {
     position: relative;
     perspective: 1000px;
   }
-  
+
+.arrow.hover {
+    background-color: yellow;
+  }
+
+  /*
   .card-body {
     position: absolute;
     top: 0;
@@ -24,4 +29,4 @@
   .card .card-text {
     transform: rotateY(180deg);
   }
-  
+  */

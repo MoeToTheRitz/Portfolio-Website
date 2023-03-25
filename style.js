@@ -25,27 +25,22 @@ document.addEventListener("DOMContentLoaded", function() {
 
     else if (window.location.href.indexOf("/about.html")>= 0){
 
-      if (Lang === "DE") {
-        document.getElementById("about1").innerHTML ="Hallo"
-        document.getElementById("about2").innerHTML ="ich bin Moritz, 22 Jahre alt und Student im 4. Semester E-Commerce. Diese Website dient zur vorstllung meinerselbst um ihnen einen besseren Eindruck von mir zu geben."
-        document.getElementById("SH1").innerHTML ="<strong>Webdesign:</strong>"
-        document.getElementById("skill2").innerHTML =""
-        document.getElementById("skill3").innerHTML =""
-        document.getElementById("skill4").innerHTML =""
-        document.getElementById("skill5").innerHTML =""
-        document.getElementById("skill6").innerHTML =""
-      }
-
-      else if (Lang === "EN") {
+    if (Lang === "EN") {
         document.getElementById("about1").innerHTML ="Hello"
         document.getElementById("about2").innerHTML ="I am Moritz, 22 years old and a student in the 4th semester of e-commerce. This website serves to introduce myself to give you a better impression of me."
         document.getElementById("about3").innerHTML ="As already mentioned in my introductory sentence, I am also involved in e-commerce projects in addition to my studies. For example, a year ago I set up my own webshop with Shopify and sold products around the topic Living for Young People. As you can already imagine, I did simple dropshipping and quickly realized that this form of shipping is not sustainable for me as an operator as well as for my customers. However, I was able to gain a lot of experience in the areas of: CMS, shipping, marketing and customer relations and gain interest in e-commerce."
         document.getElementById("SH1").innerHTML ="<strong>Webdesign:</strong>"
+        document.getElementById("SH1.1").innerHTML ="I create user-friendly and engaging web designs that increase the engagement of your target audience."
         document.getElementById("SH2").innerHTML ="<strong>Programming Skills:</strong>"
+        document.getElementById("SH2.1").innerHTML ="I have experience both through my studies and on my own initiative with programming languages such as: HTML, CSS, PYTHON, JS, SQL and PHP."
         document.getElementById("SH3").innerHTML ="<strong>CMS Experience</strong>"
+        document.getElementById("SH3.1").innerHTML ="I have already worked with content management systems such as: Shopify, WordPress, Magento, Shopware, Webflow and have dealt with them intensively."
         document.getElementById("SH4").innerHTML ="<strong>English skills:</strong>"
+        document.getElementById("SH4.1").innerHTML ="I speak English fluently also on business level"
         document.getElementById("SH5").innerHTML ="<strong>Marketing Experience:</strong>"
+        document.getElementById("SH5.1").innerHTML ="In the course of my private work and further education I have already performed SEO optimization to achieve a better page rank on the result page and successfully placed advertising campaigns on Meta and TikTok with both my own and other people's content."
         document.getElementById("SH6").innerHTML ="<strong>CMS Experience</strong>"
+        document.getElementById("SH6.1").innerHTML ="I have already worked with content management systems such as: Shopify, WordPress, Magento, Shopware, Webflow and have dealt with them intensively."
       }
 }
 
@@ -53,16 +48,22 @@ document.addEventListener("DOMContentLoaded", function() {
     else if (window.location.href.indexOf("lebenslauf.html")>= 0){
   console.log("passt")
 
-  if (Lang === "DE") {
-    document.getElementById("about1").innerHTML ="Hallo"
-    document.getElementById("about2").innerHTML ="ich bin Moritz, 22 Jahre alt und Student im 4. Semester E-Commerce. Diese Website dient zur vorstllung meinerselbst um ihnen einen besseren Eindruck von mir zu geben."
-    document.getElementById("about3").innerHTML ="Wie bereits in meinem Einleitungssatz erwähnt befasse ich mich auch neben meinem Studium mit Projekten rund um das Thema E-Commerce. So habe ich beispielsweise vor einem Jahr einen eigenen Webshop mit Shopify aufgesetzt und Produkte Rund um das Thema Wohnen für Junge Leute verkauft. Wie sie sich bereits denken können habe ich simples Dropshipping betrieben und schnell festgestellt das diese Form des Versands sowohl für mich als Betreiber als auch für meine Kunden nicht Nachhaltig ist. Jedoch konnte ich bereits hierbei viel erfahrungen in den Gebieten: CMS, Versand, Marketing und Customer Relation sammeln und Intresse für E-Commerce gewinnen."
-      }
-
-  else if (Lang === "EN") {
-    document.getElementById("about1").innerHTML ="Hello"
-    document.getElementById("about2").innerHTML ="I am Moritz, 22 years old and a student in the 4th semester of e-commerce. This website serves to introduce myself to give you a better impression of me."
-    document.getElementById("about3").innerHTML ="As already mentioned in my introductory sentence, I am also involved in e-commerce projects in addition to my studies. For example, a year ago I set up my own webshop with Shopify and sold products around the topic Living for Young People. As you can already imagine, I did simple dropshipping and quickly realized that this form of shipping is not sustainable for me as an operator as well as for my customers. However, I was able to gain a lot of experience in the areas of: CMS, shipping, marketing and customer relations and gain interest in e-commerce."
+  if (Lang === "EN") {
+    document.getElementById("Leb").innerHTML ="Resume"
+    document.getElementById("Leb1").innerHTML ="Graduation:"
+    document.getElementById("Leb1.1").innerHTML ="Vocational baccalaureate at the FOS Würzburg"
+    document.getElementById("Leb2").innerHTML ="Work experience:"
+    document.getElementById("Leb2.1").innerHTML ="Service staff at Hans im Glück Würzburg"
+    document.getElementById("Leb3").innerHTML ="Study:"
+    document.getElementById("Leb3.1").innerHTML ="Student at THWS in the field of e-commerce"
+    document.getElementById("Leb4").innerHTML ="Internships:"
+    document.getElementById("Leb4.1").innerHTML ="Half-year internship at Cutvert GmbH in the area of marketing and development"
+    document.getElementById("Leb4.2").innerHTML ="Six-month internship at Rügamer & Steiner Consulting GmbH in the field of marketing"
+    document.getElementById("Leb5").innerHTML ="Other:"
+    document.getElementById("Leb5.1").innerHTML ="Six-month internship at Rügamer & Steiner Consulting GmbH in the field of marketing"
+    
+    
+    document.getElementById("Leb6").innerHTML ="Last updated: March 2023"
 }
 }
 
@@ -70,15 +71,7 @@ document.addEventListener("DOMContentLoaded", function() {
     else if (window.location.href.indexOf("kontakt.html")>= 0){
   console.log("passt")
 
-  if (Lang === "DE") {
-    document.getElementById("contact1").innerHTML ="Kontaktformular"
-    document.getElementById("contact2").innerHTML ="Name"
-    document.getElementById("contact3").innerHTML ="E-Mail-Adresse"
-    document.getElementById("contact4").innerHTML ="Ihre Nachricht"
-    document.getElementById("contact5").innerHTML ="Ich bestätige, dass ich mit der Verarbeitung meiner Eingaben zum Zwecke der Anfragebearbeitung, einverstanden bin."
-      }
-
-  else if (Lang === "EN") {
+  if (Lang === "EN") {
     document.getElementById("contact1").innerHTML ="Contact form"
     document.getElementById("contact2").innerHTML ="Name"
     document.getElementById("contact3").innerHTML ="E-mail address"
