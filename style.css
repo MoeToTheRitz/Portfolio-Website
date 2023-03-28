@@ -1,14 +1,17 @@
-div.card-body:hover {
-    background-color:lightskyblue;
-  }
-  .card {
+.card-text:hover {
+  color: black;
+}
+.card-body:hover {
+  background-color: orange;
+}
+
+
+
+.card {
     position: relative;
     perspective: 1000px;
   }
-
-.arrow.hover {
-    background-color: yellow;
-  }
+  
 
   /*
   .card-body {
