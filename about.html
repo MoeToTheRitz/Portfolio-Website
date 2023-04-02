@@ -28,18 +28,18 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav" style="margin-right: 5%;">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html"><strong>Über mich</strong><span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="about.html" id="Head1"><strong>Über mich</strong><span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="lebenslauf.html"><strong>Lebenslauf</strong></a>
+                        <a class="nav-link" href="lebenslauf.html" id="Head2"><strong>Lebenslauf</strong></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="kontakt.html"><strong>Kontakt</strong></a>
+                        <a class="nav-link" href="kontakt.html" id="Head3"><strong>Kontakt</strong></a>
                     </li>
                 </ul>
             </div>
             <div class="btn">
-              <button class="btn btn-secondary" type="button" id="changeLanguage" onclick="ChangeLang(Lang)">
+              <button class="btn btn-primary" type="button" id="changeLanguage" onclick="ChangeLang(Lang)">
                 <script>
                   document.write(Lang);
                 </script>
@@ -57,8 +57,8 @@
 
         <div class="col-md-6">
           <h1 class="display-4" style="color: white;">Moritz Weber </h1>
-          <p class="lead" style="color: white;" lang="de" id="1" data-translate="">Praktikums Portfolio</p>
-          <button type="submit" class="btn btn-warning"><strong>Jetzt kontaktieren</strong></button>
+          <p class="lead" style="color: white;" lang="de" id="Jumbo1"><strong>Praktikums Portfolio</strong></p>
+          <button type="submit" class="btn btn-warning" id="Jumbo2"><strong>Jetzt kontaktieren</strong></button>
         </div>
       </div>
     </div>
@@ -85,60 +85,73 @@
   <section id="services">
     <h2>Skills:</h2>
     <div class="row">
-      <div class="col-sm-6 col-md-4">
-        <div class="card" style="background-color: #265269; min-height: 200px;">
-          <div class="card-body" style="height: max-content;">
-            <h5 class="card-title" style="color: white;" id="SH1"><strong>Webdesign:</strong></h5>
+      <div class=" col-sm-6 col-md-4 flip-card">
+        <div class="flip-card-inner" style="background-color: #265269; min-height: 200px;">
+          <div class="flip-card-front" style="height: max-content;">
+            <h5 class="card-front" style="color: white;" id="SH1"><strong>Webdesign</strong></h5>
+          </div>
+          <div class="flip-card-back">
             <p class="card-text" style="color: white;"id="SH1.1">Ich erstelle benutzerfreundliche und ansprechende Webdesigns, die das Engagement Ihrer Zielgruppe erhöhen.</p>
           </div>
         </div>
       </div>
 
-      <div class="col-sm-6 col-md-4">
-        <div class="card" style="background-color: #265269; min-height: 200px;">
-          <div class="card-body">
-            <h5 class="card-title" style="color: white;"id="SH2"><strong>Programmierkentnisse:</strong></h5>
+      <div class=" col-sm-6 col-md-4 flip-card">
+        <div class="flip-card-inner" style="background-color: #265269; min-height: 200px;">
+          <div class="flip-card-front" style="height: max-content;">
+            <h5 class="card-title" style="color: white;"id="SH2"><strong>Programmierkentnisse</strong></h5>
+        </div>
+          <div class="flip-card-back">
             <p class="card-text" style="color: white;"id="SH2.1">Ich habe sowohl durch mein Studium als auch in Eigeninitiative Erfahrung mit Programmiersprachen wie: <strong> HTML, CSS, PYTHON, JS, SQL und PHP </strong></p>
-          </div>
+        </div>
         </div>
       </div>
+    
 
-      <div class="col-sm-6 col-md-4">
-        <div class="card" style="background-color: #265269; min-height: 200px;">
-          <div class="card-body">
+      <div class=" col-sm-6 col-md-4 flip-card">
+        <div class="flip-card-inner" style="background-color: #265269; min-height: 200px;">
+          <div class="flip-card-front" style="height: max-content;">
             <h5 class="card-title" style="color: white;"id="SH3"><strong>CMS Erfahrung</strong></h5>
+        </div>
+          <div class="flip-card-back">
             <p class="card-text" style="color: white;"id="SH3.1">Ich habe bereits mit Content Management Systemen wie: Shopify, WordPress, Magento, Shopware, Webflow gearbeitet und mich intensiv mit diesen außeinander gesetzt. </p>
-          </div>
+        </div>
         </div>
       </div>
-      </div>
+</section>
 
 <br>
 
-      <div class="row">
-        <div class="col-sm-6 col-md-4">
-          <div class="card" style="background-color: #265269; min-height: 200px;">
-            <div class="card-body">
-              <h5 class="card-title" style="color: white;"id="SH4"><strong>Englischkentnisse:</strong></h5>
+      <div class="row" style="border: none;">
+        <div class=" col-sm-6 col-md-4 flip-card">
+          <div class="flip-card-inner" style="background-color: #265269; min-height: 200px;">
+            <div class="flip-card-front" style="height: max-content;">
+              <h5 class="card-title" style="color: white;"id="SH4"><strong>Englischkentnisse</strong></h5>
+            </div>
+            <div class="flip-card-back">
               <p class="card-text" style="color: white;"id="SH4.1">Englich spreche ich fließend auch auf Business Ebene</p>
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4">
-          <div class="card" style="background-color: #265269; height: auto;">
-            <div class="card-body">
-              <h5 class="card-title" style="color: white;"id="SH5"><strong>Marketing Erfahrung:</strong></h5>
+        <div class=" col-sm-6 col-md-4 flip-card">
+          <div class="flip-card-inner" style="background-color: #265269; min-height: 200px;">
+            <div class="flip-card-front" style="height: max-content;">
+              <h5 class="card-title" style="color: white;" id="SH5"><strong>Marketing Erfahrung</strong></h5>
+            </div>
+            <div class="flip-card-back">
               <p class="card-text" style="color: white;"id="SH5.1">Im zuge meiner Privaten Arbeit und Weiterbildung habe ich bereits SEO Optimierung durchgeführt 
                 um einen besseren Page Rank auf der Result Page zu erzielen und erfolgreich Werbekampagnen auf Meta und TikTok 
-                geschaltet sowohl mit Eigenem als auch fremden Content</p>
+                geschaltet sowohl mit Eigenem als auch fremden Content</p>    
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4">
-          <div class="card" style="background-color: #265269; min-height: 200px;">
-            <div class="card-body">
-              <h5 class="card-title" style="color: white;"id="SH6"><strong></strong>CMS Erfahrung</h5>
-              <p class="card-text" style="color: white;"id="SH6.1">Ich habe bereits mit Content Management Systemen wie: Shopify, WordPress, Magento, Shopware, Webflow gearbeitet und mich intensiv mit diesen außeinander gesetzt. </p>
+        <div class=" col-sm-6 col-md-4 flip-card">
+          <div class="flip-card-inner" style="background-color: #265269; min-height: 200px;">
+            <div class="flip-card-front" style="height: max-content;">
+              <h5 class="card-title" style="color: white;" id="SH6"><strong></strong>CMS Erfahrung</h5>
+            </div>
+            <div class="flip-card-back">
+              <p class="card-text" style="color: white;"id="SH6.1">Ich habe bereits mit Content Management Systemen wie: Shopify, WordPress, Magento, Shopware, Webflow gearbeitet und mich intensiv mit diesen außeinander gesetzt. </p>    
             </div>
           </div>
         </div>
@@ -147,15 +160,16 @@
 </div>
 <br>
 <section class="container" style="margin-top: 3%;">
-  <h1>Bisherige Projekte:</h1>
+  <h1 id="SH7">Bisherige Projekte:</h1>
   <hr>
-  <div class="row">
+  
+  <div class="row" style="margin-top: 5%;">
     <div class="col-md-6">
       <img src="img\Lehrer.jpg" alt="Bildbeschreibung" class="img-fluid">
     </div>
     <div class="col-md-6">
-      <h3>Finanzen für Lehrer</h2>
-      <p>Als Mitbegründer und Webentwickler des Projekts "Finanzen für Lehrer" habe ich in Zusammenarbeit mit meinem Mitbewohner aus der Finanzbranche eine ansprechende und funktionale Website geschaffen. Mit Hilfe von WordPress und Elementor habe ich das Design, die Navigation, die Backend-Entwicklung sowie die Conversion-Optimierung und SEO der Website übernommen und ständig verbessert. Wir arbeiten kontinuierlich daran, die Website zu erweitern und zu optimieren, um unseren Besuchern eine bestmögliche Nutzererfahrung zu bieten. </p>
+      <h3 >Finanzen für Lehrer</h2>
+      <p id="SH8">Als Mitbegründer und Webentwickler des Projekts "Finanzen für Lehrer" habe ich in Zusammenarbeit mit meinem Mitbewohner aus der Finanzbranche eine ansprechende und funktionale Website geschaffen. Mit Hilfe von WordPress und Elementor habe ich das Design, die Navigation, die Backend-Entwicklung sowie die Conversion-Optimierung und SEO der Website übernommen und ständig verbessert. Wir arbeiten kontinuierlich daran, die Website zu erweitern und zu optimieren, um unseren Besuchern eine bestmögliche Nutzererfahrung zu bieten. </p>
       <button type="button" class="btn btn-warning btn-outline-dark"><a href="https://xn--finanzenfrlehrer-rzb.de/" class="btn-outline-dark"><strong>Zur Website</strong></a></button>
     </div>
   </div>
@@ -164,49 +178,74 @@
   <hr>
   <div class="row" style="margin-top: 5%;">
     <div class="col-md-6">
-      <h3>Pasta e Olio</h2>
-      <p>Während der COVID-19-Pandemie hat das Restaurant Pasta e Olio, welches sich im Herzen Würzburgs befindet, eine Online-Präsenz ins Leben gerufen, um den Lieferdienst aufrechtzuerhalten. Da der Inhaber ein enger Freund von mir ist und nicht viel Erfahrung im Bereich Webdesign und E-Commerce hat, konnte ich helfen, die Website zu überarbeiten und zu gestalten. Dazu zählten unter anderem die Implementierung von Call-to-Action-Buttons, eine höhere Informationsdichte sowie Up-Selling-Strategien. Die Website wird fortlaufend weiterentwickelt, um den sich ständig ändernden Anforderungen gerecht zu werden.</p>
+      <h3 >Pasta e Olio</h2>
+      <p id="SH9">Während der COVID-19-Pandemie hat das Restaurant Pasta e Olio, welches sich im Herzen Würzburgs befindet, eine Online-Präsenz ins Leben gerufen, um den Lieferdienst aufrechtzuerhalten. Da der Inhaber ein enger Freund von mir ist und nicht viel Erfahrung im Bereich Webdesign und E-Commerce hat, konnte ich helfen, die Website zu überarbeiten und zu gestalten. Dazu zählten unter anderem die Implementierung von Call-to-Action-Buttons, eine höhere Informationsdichte sowie Up-Selling-Strategien. Die Website wird fortlaufend weiterentwickelt, um den sich ständig ändernden Anforderungen gerecht zu werden.</p>
           <button type="button" class="btn btn-warning btn-outline-dark"><a href="https://www.pastaeolio.de/" class="btn-outline-dark"><strong>Zur Website</strong></a></button>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6" style="justify-content: center;">
       <img src="img\pasta.png" alt="Bildbeschreibung" class="img-fluid" style="height: 90%; padding-left: 10%;">
     </div>
   </div>
+
+  <hr>
+  
+  <div class="row" style="margin-top: 5%;">
+    <div class="col-md-6">
+      <img src="img\dwell.png" alt="Bildbeschreibung" class="img-fluid" style="width: 75%; padding-left: 20%;">
+    </div>
+    <div class="col-md-6">
+      <h3>YoungDwell</h2>
+      <p id="SH10">In der Vergangenheit habe ich mich intensiv mit Dropshipping beschäftigt und einen Online-Shop namens Young-Dwell gegründet. Dieser Shop verkaufte Möbel speziell für junge Leute, war jedoch leider nicht profitabel. Trotzdem konnte ich aus dieser Erfahrung viel lernen und wertvolle Erkenntnisse gewinnen. Ich habe gelernt, wie wichtig es ist, eine effektive Marketingstrategie zu entwickeln, Kundenfeedback zu nutzen, um das Angebot zu verbessern, und sich auf eine klare Zielgruppe zu konzentrieren. Diese Erfahrungen haben mir geholfen, mich als Unternehmer weiterzuentwickeln und meine Fähigkeiten im E-Commerce-Bereich zu verbessern.</p>
+    </div>
+  </div>
+
 <hr>
    <div class="row" style="margin-top: 5%;">
     <div class="col-md-6">
-      <img src="img\GitHub.png" alt="Bildbeschreibung" class="img-fluid" style="height: 80%; padding-left: 10%;">
-    </div>
-    <div class="col-md-6">
       <h3>GitHub</h2>
-      <p>Sollten sie sich für weitere Projekte interessieren wie beispielsweise meine Uni Portfolios besuchen sie mich gerne auf GitHub</p>
+      <p id="SH11">Sollten sie sich für weitere Projekte interessieren wie beispielsweise meine Uni Portfolios besuchen sie mich gerne auf GitHub</p>
       <button type="button" class="btn btn-warning btn-outline-dark"><a href="https://xn--finanzenfrlehrer-rzb.de/" class="btn-outline-dark"><strong>Zu GitHub</strong></a></button>
+    </div>
+    <div class="col-md-6" style="justify-content: center;">
+      <img src="img\GitHub.png" alt="Bildbeschreibung" class="img-fluid" style="height: 80%; padding-left: 15%;">
     </div>
   </div>
   
   
 </section>
 
-  <footer style="margin-top: 5%;">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding-bottom: 5%">
-      <div class="container">
-          <a class="navbar-brand" href=""></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-              <ul class="navbar-nav">
-                  <li class="nav-item">
-                      <a class="nav-link" href="#about"><strong>Über mich</strong><span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#services"><strong>Dienstleistungen</strong></a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#contact"><strong>Kontakt</strong></a>
-                  </li>
-              </ul>
-          </div>
+<footer style="padding: 3%;;" class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-2">
+        <a class="navbar-brand" href="https://wa.me/+4917676984147"><img src="img\whatsapp.png" alt="Icon" style="width: 30%;"></a>
       </div>
-  </nav>
-  </footer>
+      <div class="col-2">
+        <a class="navbar-brand" href="https://www.linkedin.com/in/moritz-weber-30b2a0239/"><img src="img\linkedinn.png" alt="Icon" style="width: 30%;"></a>
+      </div>
+      <div class="col-2">
+        <a class="navbar-brand" href="mailto:moritz.m.weber@gmail.com"><img src="img\email.png" alt="Icon" style="width: 30%;"></a>
+      </div>
+      <div class="col-6" >
+        <ul class="navbar-nav justify-content-end">
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html"><strong>Home</strong><span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="about.html" id="Foot1"><strong>Über mich</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="lebenslauf.html" id="Foot2"><strong>Lebenslauf</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kontakt.html" id="Foot3"><strong>Kontakt</strong></a>
+          </li>
+          <li class="nav-item" style="margin-left: 5%;">
+            <a class="btn btn-secondary" href="kontakt.html" id="Foot4">Jetzt kontaktieren</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</footer>

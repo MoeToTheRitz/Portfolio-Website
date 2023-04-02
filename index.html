@@ -28,18 +28,18 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav" style="margin-right: 5%;">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html"><strong>Über mich</strong><span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="about.html" id="Head1"><strong>Über mich</strong><span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="lebenslauf.html"><strong>Lebenslauf</strong></a>
+                        <a class="nav-link" href="lebenslauf.html" id="Head2"><strong>Lebenslauf</strong></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="kontakt.html"><strong>Kontakt</strong></a>
+                        <a class="nav-link" href="kontakt.html" id="Head3"><strong>Kontakt</strong></a>
                     </li>
                 </ul>
             </div>
             <div class="btn">
-              <button class="btn btn-secondary" type="button" id="changeLanguage" onclick="ChangeLang(Lang)">
+              <button class="btn" style="background-color: #265269; color: white;" type="button" id="changeLanguage"  onclick="ChangeLang(Lang)">
                 <script>
                   document.write(Lang);
                 </script>
@@ -57,8 +57,8 @@
 
         <div class="col-md-6">
           <h1 class="display-4" style="color: white;">Moritz Weber </h1>
-          <p class="lead" style="color: white;" lang="de" id="1" data-translate="">Praktikums Portfolio</p>
-          <button type="submit" class="btn btn-warning"><strong>Jetzt kontaktieren</strong></button>
+          <p class="lead" style="color: white;" lang="de" id="Jumbo1"><strong>Praktikums Portfolio</strong></p>
+          <button type="submit" class="btn btn-warning" id="Jumbo2"><strong>Jetzt kontaktieren</strong></button>
         </div>
       </div>
     </div>
@@ -85,29 +85,42 @@
 <br>
 <br>
 
-<footer style="margin-top: 5%;">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-bottom" style="padding-bottom: 5%">
-    <div class="container">
-        <a class="navbar-brand" href=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#about"><strong>Über mich</strong><span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#services"><strong>Dienstleistungen</strong></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact"><strong>Kontakt</strong></a>
-                </li>
-            </ul>
-        </div>
+<footer style="padding: 3%;;" class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-2">
+        <a class="navbar-brand" href="https://wa.me/+4917676984147"><img src="img\whatsapp.png" alt="Icon" style="width: 30%;"></a>
+      </div>
+      <div class="col-2">
+        <a class="navbar-brand" href="https://www.linkedin.com/in/moritz-weber-30b2a0239/"><img src="img\linkedinn.png" alt="Icon" style="width: 30%;"></a>
+      </div>
+      <div class="col-2">
+        <a class="navbar-brand" href="mailto:moritz.m.weber@gmail.com"><img src="img\email.png" alt="Icon" style="width: 30%;"></a>
+      </div>
+      <div class="col-6" >
+        <ul class="navbar-nav justify-content-end">
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html"><strong>Home</strong><span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="about.html" id="Foot1"><strong>Über mich</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="lebenslauf.html" id="Foot2"><strong>Lebenslauf</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kontakt.html" id="Foot3"><strong>Kontakt</strong></a>
+          </li>
+          <li class="nav-item" style="margin-left: 5%;">
+            <a class="btn btn-secondary" href="kontakt.html" id="Foot4">Jetzt kontaktieren</a>
+          </li>
+        </ul>
+      </div>
+
     </div>
-</nav>
+  </div>
 </footer>
+
 </body>
 </html>
         
