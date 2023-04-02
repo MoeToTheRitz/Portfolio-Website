@@ -22,7 +22,6 @@ document.addEventListener("DOMContentLoaded", function() {
     
       document.getElementById("Foot1").innerHTML = "<strong>About</strong>"
       document.getElementById("Foot2").innerHTML = "<strong>Resume</strong>"
-      document.getElementById("Foot3").innerHTML = "<strong>Contact</strong>"
       document.getElementById("Foot4").innerHTML = "<strong>Contact Now</strong>"
     }
 }
@@ -61,7 +60,6 @@ document.addEventListener("DOMContentLoaded", function() {
       
         document.getElementById("Foot1").innerHTML = "<strong>About</strong>"
         document.getElementById("Foot2").innerHTML = "<strong>Resume</strong>"
-        document.getElementById("Foot3").innerHTML = "<strong>Contact</strong>"
         document.getElementById("Foot4").innerHTML = "<strong>Contact Now</strong>"
       }
 }
@@ -93,7 +91,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
     document.getElementById("Foot1").innerHTML = "<strong>About</strong>"
     document.getElementById("Foot2").innerHTML = "<strong>Resume</strong>"
-    document.getElementById("Foot3").innerHTML = "<strong>Contact</strong>"
     document.getElementById("Foot4").innerHTML = "<strong>Contact Now</strong>"
   }
 }
@@ -115,7 +112,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
     document.getElementById("Foot1").innerHTML = "<strong>About</strong>"
     document.getElementById("Foot2").innerHTML = "<strong>Resume</strong>"
-    document.getElementById("Foot3").innerHTML = "<strong>Contact</strong>"
     document.getElementById("Foot4").innerHTML = "<strong>Contact Now</strong>"
   }
 }
