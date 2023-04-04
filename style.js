@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById("SH4").innerHTML ="<strong>English skills:</strong>"
         document.getElementById("SH4.1").innerHTML ="I speak English fluently also on business level."
         document.getElementById("SH5").innerHTML ="<strong>Marketing Experience:</strong>"
-        document.getElementById("SH5.1").innerHTML ="In the course of my private work and further education I have already performed SEO optimization to achieve a better page rank on the result page and successfully placed advertising campaigns on Meta and TikTok with both my own and other people's content."
+        document.getElementById("SH5.1").innerHTML ="In the course of my private work and further education I have already performed SEO optimization to achieve a better page rank on the results pages. I have also successfully run advertising campaigns on Meta and TikTok, both with my own and other people's content."
         document.getElementById("SH6").innerHTML ="<strong>CMS Experience</strong>"
         document.getElementById("SH6.1").innerHTML ="I have already worked with content management systems such as: Shopify, WordPress, Magento, Shopware, Webflow and have dealt with them intensively."
         document.getElementById("SH7").innerHTML ="Previous projects:"
