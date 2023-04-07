@@ -77,5 +77,7 @@
     width: 100%;
     background-color: transparent;
   }
-
+html{
+  scroll-behavior: smooth;
+}
   
