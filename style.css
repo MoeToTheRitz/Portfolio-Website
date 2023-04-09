@@ -46,20 +46,20 @@
   }
   
   .nav-link:hover {
-    transform: scale(1.2); /* Verkleinert das Bild auf 80% */
-    transition: transform 0.3s ease; /* Fügt eine flüssige Übergangswirkung hinzu */
+    transform: scale(1.2); 
+    transition: transform 0.3s ease; 
   }
   .btn:hover:hover {
-    transform: scale(1.2); /* Verkleinert das Bild auf 80% */
-    transition: transform 0.3s ease; /* Fügt eine flüssige Übergangswirkung hinzu */
+    transform: scale(1.2); 
+    transition: transform 0.3s ease; 
   }
   .navbar-brand:hover {
-    transform: scale(1.2); /* Verkleinert das Bild auf 80% */
-    transition: transform 0.3s ease; /* Fügt eine flüssige Übergangswirkung hinzu */
+    transform: scale(1.2); 
+    transition: transform 0.3s ease; 
   }
   .arrow:hover {
-    transform: scale(1.2); /* Verkleinert das Bild auf 80% */
-    transition: transform 0.3s ease; /* Fügt eine flüssige Übergangswirkung hinzu */
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
   }  
 
   .jumbotron {
@@ -80,4 +80,8 @@
 html{
   scroll-behavior: smooth;
 }
+p{
+  line-height: 150%;
+}
+
   
