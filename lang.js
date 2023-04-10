@@ -80,6 +80,7 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("Leb1.1").innerHTML ="Vocational baccalaureate at the FOS Würzburg"
     document.getElementById("Leb2").innerHTML ="Work experience:"
     document.getElementById("Leb2.1").innerHTML ="Service staff at Hans im Glück Würzburg"
+    document.getElementById("Leb2.2").innerHTML ="Independent web developer"
     document.getElementById("Leb3").innerHTML ="Study:"
     document.getElementById("Leb3.1").innerHTML ="Student at THWS in the field of e-commerce"
     document.getElementById("Leb4").innerHTML ="Internships:"
