@@ -75,6 +75,8 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("Head2").innerHTML = "<strong>Resume</strong>"
     document.getElementById("Head3").innerHTML = "<strong>Contact</strong>"
 
+    document.getElementById("9.9").innerHTML = "since"
+
     document.getElementById("Leb").innerHTML ="Resume"
     document.getElementById("Leb1").innerHTML ="Graduation:"
     document.getElementById("Leb1.1").innerHTML ="Vocational baccalaureate at the FOS Würzburg"
@@ -88,8 +90,7 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("Leb4.2").innerHTML ="Six-month internship at Rügamer & Steiner Consulting GmbH in the field of marketing"
     document.getElementById("Leb5").innerHTML ="Other:"
     document.getElementById("Leb5.1").innerHTML ="1 year sabbatical with stay abroad"
-    
-    
+
     document.getElementById("Leb6").innerHTML ="Last updated: March 2023"
 
     document.getElementById("Foot1").innerHTML = "<strong>About</strong>"
