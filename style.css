@@ -81,6 +81,16 @@
     padding-bottom: 20%;
     background-attachment: fixed;
   }
+
+  .resume{
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    padding-bottom: 20%;
+    background-attachment: absolute;
+  }
+
   .header{
     position: fixed;
     width: 100%;
@@ -91,6 +101,11 @@ html{
 }
 p{
   line-height: 150%;
+}
+.flip-card-inner{
+  background-color: #333131; 
+  min-height: 200px; 
+  border-radius: 10%;
 }
 
   
