@@ -72,6 +72,15 @@
     background-attachment: fixed;
     
   }
+  .hardskills{
+    box-sizing: border-box;
+    background-image: url('img/city.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-position-y: 60%;
+    padding-bottom: 20%;
+    background-attachment: fixed;
+  }
   .header{
     position: fixed;
     width: 100%;
