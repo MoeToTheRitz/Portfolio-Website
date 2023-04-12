@@ -17,9 +17,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
       document.getElementById("index1").innerHTML = "Hey,"
       document.getElementById("index2").innerHTML = "Welcome to my <strong>portfolio</strong> page, where I would like to introduce myself to you! I am glad that you have found your way here. My name is <strong>Moritz Weber</strong>, and I am a student in the field of <strong>e-commerce</strong> at the <strong>Technical University of Würzburg Schweinfurt</strong>.";
-      document.getElementById("index3").innerHTML = "As a student in the <strong>4th semester</strong>, I was able to gain valuable experience in the field of e-commerce and have <strong>already successfully helped several companies</strong> to optimize their <strong>webshops and websites</strong> and increase their sales. My extensive knowledge in <strong>online marketing</strong>, the <strong>creation of appealing webshops</strong>, as well as the <strong>optimization of e-commerce processes</strong>, makes me the perfect <strong>intern</strong> for your company that wants to operate successfully in the e-commerce sector.";
-      document.getElementById("index4").innerHTML = "On my portfolio page you will find an <strong>overview</strong> of my <strong>previous projects</strong> and <strong>references</strong>. If you want to learn more about my work or have any questions, don't hesitate to <strong>contact me</strong>. I look forward to hearing from you and working together on your e-commerce success."
-      document.getElementById("index5").innerHTML = "<strong>Learn more</strong>"
+      document.getElementById("index3").innerHTML = "I am pursuing a career in the business world and looking for exciting opportunities in areas such as <strong>e-commerce and online marketing</strong>, <strong>IT consulting</strong>, <strong>project management</strong>, <strong>business development</strong> and similar fields of work. I believe that my <strong>analytical skills</strong>, <strong>strategic thinking</strong> and <strong>passion for technology</strong> and innovation will allow me to succeed in these fields. My goal is to work in a <strong>dynamic environment</strong> and continuously <strong>expand my skills and knowledge</strong> to help grow the company and advance my own career."
+      document.getElementById("index4").innerHTML = "As a student in the <strong>4th semester</strong>, I was able to gain valuable experience in the field of e-commerce and have <strong>already successfully helped several companies</strong> to optimize their <strong>webshops and websites</strong> and increase their sales. My extensive knowledge in <strong>online marketing</strong>, the <strong>creation of appealing webshops</strong>, as well as the <strong>optimization of e-commerce processes</strong>, makes me the perfect <strong>intern</strong> for your company that wants to operate successfully in the e-commerce sector.";
+      document.getElementById("index5").innerHTML = "On my portfolio page you will find an <strong>overview</strong> of my <strong>previous projects</strong> and <strong>references</strong>. If you want to learn more about my work or have any questions, don't hesitate to <strong>contact me</strong>. I look forward to hearing from you and working together on your e-commerce success."
+      document.getElementById("index6").innerHTML = "<strong>Learn more</strong>"
 
 
       document.getElementById("Foot1").innerHTML = "<strong>About</strong>"
@@ -75,7 +76,9 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("Head2").innerHTML = "<strong>Resume</strong>"
     document.getElementById("Head3").innerHTML = "<strong>Contact</strong>"
 
-    document.getElementById("9.9").innerHTML = "since"
+    document.getElementById("Si1").innerHTML = "since"
+    document.getElementById("Si2").innerHTML = "since"
+    document.getElementById("Si2").innerHTML = "since"
 
     document.getElementById("Leb").innerHTML ="Resume"
     document.getElementById("Leb1").innerHTML ="Graduation:"
