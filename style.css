@@ -72,6 +72,28 @@
     background-attachment: fixed;
     
   }
+  .hardskills{
+    box-sizing: border-box;
+    background-image: url('img/city.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-position-y: 60%;
+    padding-bottom: 20%;
+    background-attachment: fixed;
+  }
+
+  .resume{
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    padding-bottom: 20%;
+    background-attachment: absolute;
+  }
+  .list-group-item{
+    background-color: #347293; color: white;
+  }
+
   .header{
     position: fixed;
     width: 100%;
@@ -82,6 +104,11 @@ html{
 }
 p{
   line-height: 150%;
+}
+.flip-card-inner{
+  background-color: #333131; 
+  min-height: 200px; 
+  border-radius: 10%;
 }
 
   
