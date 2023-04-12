@@ -90,6 +90,9 @@
     padding-bottom: 20%;
     background-attachment: absolute;
   }
+  .list-group-item{
+    background-color: #347293; color: white;
+  }
 
   .header{
     position: fixed;
