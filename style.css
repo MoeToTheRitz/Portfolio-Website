@@ -90,6 +90,15 @@
     padding-bottom: 20%;
     background-attachment: absolute;
   }
+  .projekte{
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 13%;
+    padding-bottom: 20%;
+    background-attachment: fixed;
+  }
+
   .list-group-item{
     background-color: #347293; color: white;
   }
